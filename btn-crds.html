@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    <!--Button and Cards Section-->
+    <h1 class = "text-center">Button Section</h1>
+    <div class="container text-center">
+    <button>Click me</button>
+    <button class = "center btn btn-primary">Click me</button>
+    <a class = "btn btn-outline-warning" href="#">Link for more Info</a>
+    <button class="btn btn-outline-danger">Click to forfiet</button>
+    </div>
+    <h1 class = "text-center">Button Sizes</h1>
+    <div class="container text-center">
+        <button class="btn btn-primary btn-lg">btn-lg</button>
+        <div class="btn btn-warning">Normal size</div>
+        <div class="btn btn-danger btn-sm">btn-sm</div>
+    </div>
+    <h1 class="text-center">Disabled state (Something to potentially use with jinja sintax)</h1>
+    <div class="container text-center">
+    <button class="btn btn-primary" disabled>Hello</button>
+    <h3>or even an "a" tag</h3>
+    <a class="btn btn-primary disabled" role = "button" aria-disabled="true">Edit page</a>
+    </div>
+
+    <h1 class="text-center">Cards</h1>
+    
+        <div class="card-body"><h1>Hello World</h1></div>
+    </div>
+    <div class="container text-center my-5">
+            <div class="card" style = "width:18rem">
+                <img src="/Screen Shot 2022-09-14 at 4.13.56 PM.png" class = "card-img-top" alt="picOfMe">
+                <div class="card-body">
+                    <h5 class = "card-title">Adrian Morales</h5>
+                    <p class="card-text">This is just showing what it looks like to type in card-text</p>
+                    <a href="#" class="btn btn-primary">Go somewhere else</a>
+                </div>
+            </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card w-100" style = "width:18rem">
+                    <img src="https://picsum.photos/300/200" class = "card-img-top" alt="anotherpic">
+                    <div class="card-body">
+                        <h5 class = "card-title">Amazing Work</h5>
+                        <p class="card-text">This is just showing what it looks like to type in card-text</p>
+                        <a href="#" class="btn btn-primary">Go somewhere else</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card w-50">
+                    <img src="https://picsum.photos/300/200" class = "card-img" alt="picture">
+                    <div class="card-img-overlay">
+                        <h5 class = "card-title">Amazing Work</h5>
+                        <p class="card-text">This is just showing what card-img-overlay does</p>
+                        <a href="#" class="btn btn-primary">Go somewhere else</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <div class="container my-5">
+            <div class="card border-light mb-3" style = "max-width:540px;">
+                <div class="row g-0">
+                    <div class="card-header">
+                        <h3>Card Header!!</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://picsum.photos/450/600" alt="picture" class = "img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">This is a wider card with supporting text below</p>
+                            <p class="text-muted">Using text muted</p>
+                            <a href="#" class="btn btn-primary">Go somewhere else</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card border-dark">
+              <img src="https://picsum.photos/450/600" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <img src="https://picsum.photos/450/600" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <img src="https://picsum.photos/450/600" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        <!-- Card style color-->
+        <div class="card text-bg-primary mb-4">
+            <div class="card-header">
+                Header
+            </div>
+            <div class="card-body">
+                <div class="card-title">
+                    <h1>Hello world</h1>
+                </div>
+                <div class="card-text">
+                    <p>Some quick text to show what this is</p>
+            </div>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-lg-4 col-md-8 mb-4">
+                <div class="card text-bg-danger">
+                    <div class="card-header">
+                        Header
+                    </div>
+                    <div class="card-title">
+                        <h1>Card Title</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>This is the card Body</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4">
+                <div class="card text-bg-success">
+                    <div class="card-header">
+                        Header2
+                    </div>
+                    <div class="card-title">
+                        <h1>Title2</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>This is second </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-8 mb-4">
+                <div class="card text-bg-warning">
+                    <div class="card-header">
+                        header3
+                    </div>
+                    <div class="card-title">
+                        <h1>Title3</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>Another one baby</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-4">
+                <div class="card text-bg-light">
+                    <div class="card-header">
+                        header4
+                    </div>
+                    <div class="card-title">
+                        <h1>Title 4</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>This is the last of em</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
